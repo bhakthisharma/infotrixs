@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.create-account {
+  background-color: rgb(226, 173, 75);
+  padding: 10px 25px;
+  border-radius: 38px;
+}
+
+ul {
+  background-color: #eeeff3;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 14px;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input {
+  border-radius: 5px;
+  padding: 8px 6px;
+  border: none;
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  right: 0;
+  padding-right: 6px;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.play-video {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.try-video {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 60px;
+  margin-top: 20px;
+}
+
+.trynow {
+  background-color: #ff7600;
+  margin-left: -200px;
+  padding: 12px 35px;
+  border-radius: 10px;
+  color: white;
+}
+.promotion-ratings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  align-content: flex-end;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.promotion {
+  display: flex;
+  align-items: flex-start;
+}
+.ratings {
+}
+.available-courses {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 15px;
+  box-shadow: 0px 4px 0px rgb(185, 176, 176);
+  padding: 18px 10px;
+  width: 85%;
+  margin: 0 auto;
+}
+.ratings {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-right: 15px;
+}
+.stars {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+  padding-right: 4px;
+}
+.famous-courses {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding-right: 20px;
+  padding-top: 0 auto;
+}
+.trending-topics {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.browse {
+  background-color: #ff7600;
+  margin-left: -200px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: large;
+}
+.trending {
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 500px;
+  gap: 20px;
+}
+
+.quote {
+  font-size: 51px;
+  margin: 0;
+}
+
+.paragraph {
+  font-size: 14px;
+  margin: 0;
+}
+
+.mid-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 60px;
+  gap: 60px;
+}
+
+span {
+  color: #ff7600;
+  font-weight: 5000px;
+}
+
+.container {
+  background-color: #eeeff3;
+}
+
+.navbar {
+  padding-top: 25px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 40px;
+  gap: 20px;
+}
+.card {
+  display: flex;
+  background-color: #ffffff;
+
+  width: 280px;
+  height: 200px;
+  flex-wrap: wrap;
+  border-radius: 7px;
+  box-shadow: 0px 4px 0px rgb(185, 176, 176);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.number {
+  font-size: 16px;
+}
