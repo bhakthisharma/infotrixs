@@ -201,6 +201,14 @@ span {
 .navbar {
   padding-top: 25px;
 }
+
+nav ul li a {
+  color: #000;
+}
+nav ul li a.active {
+  color: #ff7600;
+}
+
 .cards {
   display: flex;
   justify-content: center;
@@ -211,10 +219,13 @@ span {
   margin-top: 40px;
   gap: 20px;
 }
+.card:hover {
+  transform: scale(1.06);
+  transition: all 200ms ease-in-out;
+}
 .card {
   display: flex;
   background-color: #ffffff;
-
   width: 280px;
   height: 200px;
   flex-wrap: wrap;
@@ -275,7 +286,7 @@ span {
 
 .cards-ourcourse {
   display: flex;
-  flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-content: space-between;
   width: 85%;
@@ -283,7 +294,9 @@ span {
   margin-top: 130px;
   row-gap: 140px;
 }
-
+.card-course:hover {
+  transform: scale(1.1);
+}
 .card-course {
   display: flex;
   background-color: #ffffff;
@@ -294,6 +307,7 @@ span {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  transition: transform 0.3s ease;
 }
 .course-image {
   display: flex;

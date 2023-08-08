@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #eeeff3;
+}
+
+.create-account {
+  background-color: rgb(226, 173, 75);
+  padding: 10px 25px;
+  border-radius: 38px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 14px;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  display: flex;
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input {
+  border-radius: 5px;
+  padding: 8px 6px;
+  border: none;
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  right: 0;
+  padding-right: 6px;
+}
+.container {
+  background-color: #eeeff3;
+}
+
+.navbar {
+  padding-top: 25px;
+}
+nav ul li a {
+  color: #000;
+}
+nav ul li a.active {
+  color: #ff7600;
+}
+
+.latest-posts {
+  display: flex;
+  margin: 20px 75px;
+  font-size: 40px;
+}
+.cards-ourcourse {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 130px;
+  row-gap: 170px;
+  margin-bottom: 50px;
+}
+.card-course:hover {
+  transform: scale(1.06);
+  transition: all 200ms ease-in-out;
+}
+.card-course {
+  display: flex;
+  background-color: #ffffff;
+  width: 340px;
+  height: fit-content;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+  padding: 15px;
+}
+.course-image {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin-top: -120px;
+  width: 100%;
+  height: 240px;
+  border-radius: 4px;
+}
+.course-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  width: 77%;
+  margin-top: 20px;
+}
+.level {
+  background-color: rgb(235, 226, 226);
+  padding: 4px 9px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+.bullet {
+  background-color: #00ff5e;
+}
+.course-name {
+  display: flex;
+  margin-top: 10px;
+}
+.course-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 77%;
+  margin-top: 20px;
+}
+.lessons,
+.class-mode {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: small;
+}
+
+.course-ratings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  width: 77%;
+  margin-top: 20px;
+}
+.course-stars {
+  display: flex;
+  align-items: flex-e;
+  justify-content: center;
+  gap: 3px;
+}
+.rating-point {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.footer {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  flex-direction: column;
+  background-color: #212832;
+  color: white;
+
+  padding: 20px 0px;
+}
+.top-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 20px;
+}
+.newlearning-footer-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+  margin-left: 8px;
+}
+.newlearning-footer {
+  display: flex;
+  align-items: center;
+}
+.links {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: space-around;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+}
+.links div {
+  gap: 9px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mid-foot {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 30px;
+  align-items: center;
+}
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-content: flex-start;
+}
+.newsletter-input {
+  width: 70%;
+  background-color: transparent;
+  color: white;
+}
+.newsletter-input:focus {
+  outline: none;
+  border: none;
+}
+.newsletter-input::placeholder {
+  text-decoration: none;
+  color: white;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.Upgradenow-nextsymbol {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+  border: 1px solid rgb(255, 163, 71);
+  padding: 9px 9px;
+  border-radius: 30px;
+  margin-top: 10px;
+  height: 22px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.end-foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff7600;
+}
